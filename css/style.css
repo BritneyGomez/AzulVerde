@@ -4,33 +4,47 @@
 
 
 body {
-    font-family: Arial;
+    font-family: roboto;
     margin: 0;
 }
 
-/
-.header {
-    padding: 60px;
+
+header {
+    padding: 50px;
     text-align: center;
-    background: #1abc9c;
+    background: #33CC99;
     color: white;
 }
+
+.name {
+    font-size: 60px;
+
+}
+
+.big {
+    font-weight: bold;
+    font-size: 65px;
+}
+
 
 nav {
     display: flex;
     background-color: #333;
+    display: flex;
+    align-content: center;
 }
 
 
 nav a {
+    
     color: white;
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
+    
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #33CC99;
     color: black;
 }
 
@@ -43,16 +57,52 @@ nav a:hover {
 
 .side {
     flex: 50%;
-    background-color: #f1f1f1;
+    background-color: #ADD9D1;
     padding: 20px;
 }
 
+.off {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1D858C;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+   a:hover {
+    color: white;
+    opacity: 30%;
+}
+
+.p {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+
+}
 
 .main {
     flex: 50%;
-    background-color: white;
+    background-color: #81CAB2;
     padding: 20px;
+    width: 10%;
+    height: 10%;
 }
+
+.img1 {
+    padding: 10px;
+    padding-left: 130px;
+
+}
+
 
 .row2 {  
     display: flex;
@@ -66,6 +116,12 @@ nav a:hover {
     padding: 20px;
 }
 
+.img2 {
+    width: 82%;
+    display: flex;
+    padding-left: 110px;
+}
+
 
 .main2 {
     flex: 50%;
@@ -73,7 +129,24 @@ nav a:hover {
     padding: 20px;
 }
 
+.row3 {  
+    display: flex;
+    flex-wrap: wrap;
+}
 
+
+.side3 {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+.main3 {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+}
 
 
 .footer {
