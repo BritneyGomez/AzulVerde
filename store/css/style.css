@@ -9,6 +9,7 @@ body {
 }
 
 
+
 nav {
     background-color: #333;
     text-align: center;
@@ -16,7 +17,6 @@ nav {
     padding-bottom: 20px;
 
 }
-
 
 nav a {
     
@@ -27,137 +27,150 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #F9C629;
+    background-color: #33CC99;
     color: black;
 }
 
-
-.fling-minislide {
-    width:564px; 
-    height: 846px; 
-    overflow:hidden; 
-    position:relative; 
-    width: 70%;
-    display: flex;
-
+img {
+    width: 80%;
+    padding-left: 40px;
+    padding-bottom: -200px;
+    padding-top: 50px;
 
 }
 
-.fling-minislide img { 
-    position:absolute; 
-    animation:fling-minislide 20s infinite; 
-    opacity:0; 
-    width: 100%; 
-    height: auto;
-}
+.fling-minislide {width:328.66px; height:567px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
 .fling-minislide img:nth-child(4){animation-delay:0s;}
 .fling-minislide img:nth-child(3){animation-delay:5s;}
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 
-.h2 {
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    padding-top: 20px;
-    color: #EE2C25;
-}
-
-   h2 {
-
-    margin-top: 100px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 60px;
-    padding-top: 20px;
-    color: #606060;
-}
-
-.row {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.side {
-    flex: 50%;
-    background-color: #F39A00;
-    padding: 20px;
-    padding-top: 60px;
-    padding-left: 110px;
-    margin-bottom: -130px;
-
-}
-
-
-.off {
-    display: flex;
-    text-align: center;
-    justify-content: bottom;
-    justify-content: center;
-    padding-top: 20px;
-    text-decoration: none;
-    color: #1D858C;
-    font-weight: bold;
-    font-size: 70px;
-
-}
-
-.p {
-    padding-top: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 100px;
+p{
+    font-size: 20px;
+    text-align: justify;
     color: white;
-    font-size: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-
-}
-
-.main {
-    flex: 50%;
-    background-color: #f1f1f1;
-    padding-left: 110px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    width: 50%;
-}
-
-.img1 {
-    padding: 10px;
-    padding-left: 130px;
-
-}
-
-
-.row2 {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.side2 {
-    flex: 50%;
-    background-color: #B7E26D;
-    padding: 20px;
+    padding-bottom: 207px;
+    text-align: center;
 }
 
 .img2 {
-    width: 98%;
-    display: flex;
+    width: 87%;
+    padding-bottom: 80px;
+}
+
+h2{
+    font-size:90px;
+    color: white;
+    margin-top:10px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
     justify-content: center;
-    padding-top: 40px;
+}
+
+.h2 {
+    padding-top: 100px;
+    padding-bottom: 187px;
+}
+
+h1{
+    font-size:90px;
+    color: white;
+    margin-top:10px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 
-.main2 {
-    flex: 50%;
-    background-color: #96CCB8;
-    padding: 20px;
+.button:hover {
+    background-color: white;
+    color: white;
 }
+
+.img3 {
+    padding-bottom: 120px;
+
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #E8D9B1;
+}
+
+.column:nth-child(2) {
+background-color: #66DDA1;
+
+}
+
+.column:nth-child(3) {
+    background-color: #F9C629;
+}
+
+.column:nth-child(4) {
+    background-color: #79B5AF;
+}
+
+.row2 {
+    display: table;
+    clear: both;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #2ACE82;
+
+}
+
+.column2:nth-child(2) {
+    background-color: #79B5AF;
+}
+
+.column2:nth-child(3) {
+    background-color: #E8AA72;
+}
+.row:after {
+    display: table;
+    clear: both;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+
 
 
 .footer {
@@ -169,12 +182,12 @@ nav a:hover {
 
 
 .footer a:hover {
-
     color: white;
+    padding: 14px 20px;
     
 }
 
 .footer a {
     text-decoration: none;
-    color: grey;
+    color: gray;
 }
