@@ -119,15 +119,16 @@ nav a:hover {
 }
 
 .img2 {
-    width: 82%;
+    width: 98%;
     display: flex;
-    padding-left: 110px;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 
 .main2 {
     flex: 50%;
-    background-color: #C1E288;
+    background-color: #96CCB8;
     padding: 20px;
 }
 
@@ -177,13 +178,13 @@ nav a:hover {
     
 
 
-.foooter a:hover {
+.footer a:hover {
     background-color: #33CC99;
     color: black;
-    padding: 14px 20px;
     
 }
 
-.footer {
+.footer a {
     text-decoration: none;
+    color: white;
 }
