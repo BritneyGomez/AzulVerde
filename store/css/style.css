@@ -32,6 +32,29 @@ nav a:hover {
 }
 
 
+.fling-minislide {
+    width:564px; 
+    height: 846px; 
+    overflow:hidden; 
+    position:relative; 
+    width: 70%;
+    display: flex;
+
+
+}
+
+.fling-minislide img { 
+    position:absolute; 
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
 
 .h2 {
     font-weight: bold;
@@ -61,6 +84,10 @@ nav a:hover {
     flex: 50%;
     background-color: #F39A00;
     padding: 20px;
+    padding-top: 60px;
+    padding-left: 110px;
+    margin-bottom: -130px;
+
 }
 
 
@@ -114,7 +141,7 @@ nav a:hover {
 
 .side2 {
     flex: 50%;
-    background-color: #f1f1f1;
+    background-color: #B7E26D;
     padding: 20px;
 }
 
@@ -132,43 +159,6 @@ nav a:hover {
     padding: 20px;
 }
 
-.img3 {
-    width: 77.5%;
-    display: flex;
-    padding-left: 110px;   
-}
-
-.row3 {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.side3 {
-    flex: 50%;
-    background-color: #F4CA53;
-    padding: 20px;
-}
-
-.img4 {
-    width: 75%;
-    display: flex;
-    padding-left: 110px;  
-
-}
-
-.main3 {
-    flex: 50%;
-    background-color: #EFE6CE;
-    padding: 20px;
-}
-
-.img5 {
-    width: 58%;
-    width: 75%;
-    display: flex;
-    padding-left: 110px; 
-}
 
 .footer {
     padding: 20px;
@@ -179,12 +169,12 @@ nav a:hover {
 
 
 .footer a:hover {
-    background-color: #33CC99;
-    color: black;
+
+    color: white;
     
 }
 
 .footer a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
